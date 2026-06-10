@@ -68,7 +68,7 @@ nav a:hover{
 /*comienzo de main*/
 section{
   width: 900px;
-  height: 400px;
+  height: 520px;
   background-color: #555;
   margin:0 auto ;
   margin-bottom: 15px;
@@ -103,14 +103,19 @@ border-radius: 15px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
-
+.mexico{
+  text-align: center;
+}
 #can{
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/250px-Flag_of_Canada_%28Pantone%29.svg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+}
+.Canada{
+  text-align: center;
 }
 .estadosunidos h2{
   text-align: center;
@@ -139,14 +144,15 @@ table, tr, td,th{
 }
 
 .videos_locales{
-  background-color: #aaaaaa71;
-  width: 600px;
+  background-color: #aa71;
+  width: 630px;
   height: 320px;
   border:#000 solid 7px;
   box-shadow: #555 5px 2px;
-  text-align:center;
+  text-align:center ;
   margin: 0 auto;
   box-sizing: border-box;
+  
 
 }
 
