@@ -59,6 +59,10 @@ nav a[aria-current='page'] {
   box-shadow: 5px 4px darkgray;
 
 }
+nav a:hover{
+  background-color: rgba(255, 0, 0, 0.422);
+
+}
 
 /*fin nav*/
 /*comienzo de main*/
@@ -108,6 +112,21 @@ border-radius: 15px;
   background-position: center;
 
 }
+.estadosunidos h2{
+  text-align: center;
+}
+table, tr, td,th{
+  border: solid red 2px;
+  border-collapse: collapse;
+  width: 400px;
+  margin: 0 auto;
+  }
+  tr :hover{
+  background-color: #555;
+  }
+  td img{
+  width: 200px;
+  }
 /*videos*/
 #video{
   width: 600px;
@@ -115,6 +134,22 @@ border-radius: 15px;
 }
 
 /*fin de main*/
+.presentacion{
+  height: 600px;
+}
+
+.videos_locales{
+  background-color: #aaaaaa71;
+  width: 600px;
+  height: 320px;
+  border:#000 solid 7px;
+  box-shadow: #555 5px 2px;
+  text-align:center;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
 /*comienazo del footer*/
 
 footer{
