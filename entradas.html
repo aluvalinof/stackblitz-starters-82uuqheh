@@ -1,81 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Mundial 2026</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
 
-    <link rel="stylesheet" href="css/styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <header>
-      <div id="logos">
-        <div id="fifa">
-          <img
-            src="https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic?&io=transform:fill&quality=75"
-            alt="fifa"
-          />
-        </div>
-        <div id="copa">
-          <img
-            src="https://digitalhub.fifa.com/transform/157d23bf-7e13-4d7b-949e-5d27d340987e/WC26_Logo?&io=transform:fill,height:210&quality=75"
-            alt="copa"
-          />
-        </div>
+<head>
+  <title>Mundial2026</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="logos">
+      <div id="fifa">
+        <img
+          src="https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic?&io=transform:fill&quality=75"
+          alt="fifa" />
       </div>
-    </header>
-    <nav>
-      <a href="/">Fifa</a>
-      <a href="campeones.html">Campeones</a>
-      <a href="selecciones.html">Selecciones</a>
-      <a href="estadios.html">Estadios</a>
-      <a href="entradas.html" class="activo">Entradas</a>
-    </nav>
-    <main>
-      <h2>Encuesta o datos de las entradas</h2>
-      <p>Ingrese sus datos para realizar la reserva de la entrada</p>
-<section>
-    <div id="formulario">
-      <h2>Tus datos</h2>
-    <form action="#">
-      <label for="">Nombre</label>
-      <input type="text" name="formnombre" id="formnombre" maxlength="30" minlength="
-      3" required placeholder="ingrese su nombre">
-      <label for="">Apellido</label>
-      <input type="text" name="formnombre" id="formnombre" maxlength="30" minlength="
-      3" required placeholder="ingrese su apellido">
-     <input id="formedad" type="number" placeholder="ingrese su edad">
-     <input id="formclave" type="password" placeholder="ingrese la palabra secreta">
-     <input type="eamail" placeholder="alumno@colegio.gmail">
-     
-     <input type="radio" name="formsexo" id="formf" value="femenino">
-     <label for="fem">femenino</label>
-    
-     <input type="radio" name="formsexo" id="formm" value="masculino">
-     <label for="mas">masculino</label>
-    
-     <input type="radio" name="formsexo" id="formn" value="prefiero no decirlo">
-     <label for="no">no decirlo</label>
-   
-    <label for="ubicaciones">Seleccione una ubicación</label>
-     <select name="ubicacion" id="formubi">
-    <option value="plateaa">Platea Alta</option>
-    <option value="plateam">Platea Media</option>
-    <option value="plateab">Platea Baja</option>
-  </select>
-    
-    
-    
-    <input type="submit">
+      <div id="copa">
+        <img
+          src="https://digitalhub.fifa.com/transform/157d23bf-7e13-4d7b-949e-5d27d340987e/WC26_Logo?&io=transform:fill,height:210&quality=75"
+          alt="copa" />
+      </div>
+    </div>
+  </header>
 
-    
-    </form>
-  </div>
-</section>
+  <nav>
+    <a href="index.html">FIFA</a>
+    <a href="campeones.html">Campeones</a>
+    <a href="selecciones.html">Selecciones</a>
+    <a href="estadios.html">Estadios</a>
+    <a href="entradas.html" class="activo">Entradas</a>
+  </nav>
+  <main>
+    <h2>Encuesta o datos de las entradas</h2>
+    <p>Ingrese sus datos para realizar la compra de sus entradas</p>
+    <section>
+      <div id="formulario">
+        <h2>Tus datos</h2>
+
+        <form action="#">
+          <label for="fornombre">Nombre</label>
+          <input type="text" name="" id="fornombre" maxlength="30" required minlength="3"
+            placeholder="Ingrese su nombre">
+
+          <label for="forapellido">Apellido</label>
+          <input type="text" name="" id="fornombre" maxlength="30" required minlength="3"
+            placeholder="Ingrese su apellido">
+
+          <input id="formedad" required type="number" placeholder="Ingrese su edad">
+          <input id="formclave" required type="password" placeholder="Ingrese su clave">
+
+<input type="email" placeholder="alumna@colegio.gmail">
+
+          <input type="radio" id="formf" name="formsexo" value="femenino">
+          <label for="fem">femenino</label>
+
+          <input type="radio" id="formm" name="formsexo" value="masculino">
+          <label for="mas">masculino</label>
+
+          <input type="radio" id="formn" name="formsexo" value="no decirlo">
+          <label for="no">No decirlo</label><br><br>
+
+          <label for="ubicacion">Seleccione una ubicacion</label><br>
+          <select name="ubicacion" id="formubicacion">
+            <option value="plateaa">Platea Alta</option>
+            <option value="plateab">Platea Baja</option>
+            <option value="plateac">Platea Central</option>
+          </select>
 
 
-    </main>
+          <input type="submit">
+
+        </form>
+      </div>
+    </section>
+
+  </main>
     <footer>
       <div id="colegio">
         <h3>Colegio:</h3>
